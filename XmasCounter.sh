@@ -10,7 +10,7 @@ xmas=$(date +%s --date "$nearest-12-25")
 diff=$(($xmas-$today))
 
 for i in {96..117} {117..96} ; do echo -en "\e[38;5;${i}m*\e[0m" ; done ; echo
-echo -e "\e[91m    There are \e[30m \e[103m$(($diff/(3600*24)+1))\e[0m \e[91m days till Christmas!"
+echo -e "\e[91m    There are \e[30m \e[103m$(($diff/(3600*24)+1))\e[0m \e[91m days til Christmas!"
 for i in {96..117} {117..96} ; do echo -en "\e[38;5;${i}m*"; done ; echo 
 echo -e "\e[93m \n\n"
 
